@@ -15,7 +15,7 @@ public class FourmiliereV3
 		/*------------------*/
 		/*    VARIABLES     */
 		/*------------------*/
-	int[][] terrain;
+	    int[][] terrain;
         int ligF=0,colF=0;
         char pos ='N';
 		/*------------------*/
@@ -131,10 +131,18 @@ public class FourmiliereV3
 
         }
 	
-	private static int[][] deplaceFourmi(terrain , colF, ligF, pos)
+	private static void deplaceFourmi(colF, ligF, pos)
 	{
-		int[][] new tab = terrain;
-		return tab;
+        if(e.getKeyCode()==KeyEvent.VK_UP){
+            colF-=1;
+        }else if(e.getKeyCode()==KeyEvent.VK_DOWN){
+            colF+=1;
+        }else if(e.getKeyCode()==KeyEvent.VK_RIGHT){
+            ligF+=1;
+        }else if(e.getKeyCode()==KeyEvent.VK_LEFT){
+            ligF-=1;
+        }
+    }
 	}
 		
 }
