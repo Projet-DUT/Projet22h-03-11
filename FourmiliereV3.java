@@ -121,16 +121,11 @@ public class FourmiliereV3
 	
 	private static boolean sortieTrouvee(int[][] tab, int fourmiPosX, int fourmiPosY)
         {
-           return (tab[fourmiPosY][fourmiPosX]==SORTIE_1 || tab[fourmiPosY][fourmiPosX]==SORTIE_2);
-
+           return (tab[fourmiPosY][fourmiPosX]==SORTIE_1 || 
+		   tab[fourmiPosY][fourmiPosX]==SORTIE_2);
         }
 	
-	private static void sortieTrouvee(int[][] tab, int fourmiPosX, int fourmiPosY)
-        {
-           return (tab[fourmiPosY][fourmiPosX]==SORTIE_1 || tab[fourmiPosY][fourmiPosX]==SORTIE_2);
 
-        }
-	
 	private static void deplaceFourmi(colF, ligF, pos)
 	{
         if(e.getKeyCode()==KeyEvent.VK_UP){
