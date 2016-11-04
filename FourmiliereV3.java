@@ -2,7 +2,7 @@
   * date : le 03/11/2016
   * @author: Louis Boursier <louisboursier@hotmail.fr>, Erwan Leboucher <erwanleboucher@gmail.com>, Antoine Alain <antoine76bis@gmail.com>
   * @group: 52
-  * Il s'agit d'un jeu qui consiste a faire traverser une fourmi un labyrinthe
+  * Il s'agit d'un jeu qui consiste a faire traverser une fourmi d'un labyrinthe
   */
   
 import java.util.Scanner;
